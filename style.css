@@ -44,3 +44,23 @@ h1{
 body {
     font-family: verdana;
 }
+
+#colorBox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 25px;
+    background-color: red;
+    animation-name: rainbow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rainbow {
+    0%   {background-color: red;}
+    20%  {background-color: yellow;}
+    40%  {background-color: green;}
+    80% {background-color: blue;}
+    100% {background-color: purple;}
+  }

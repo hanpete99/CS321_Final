@@ -68,3 +68,16 @@ body {
     82%  {background-color: purple;}
     100% {background-color: red;}
   }
+
+  #RGBVideo {
+      display: block;
+      margin: 0 auto;
+  }
+
+  h3 {
+      text-align: center;
+  }
+
+  h4 {
+      text-align: center;
+  }

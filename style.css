@@ -7,7 +7,7 @@
     margin: 10px;
 }
 
-#buttonWrapper{
+#buttonWrap{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@ h1{
     text-align: center;
 }
 
-#colorValue{
+#rgbValue{
     margin: 30px;
     text-align: center;
 }

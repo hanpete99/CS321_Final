@@ -1,4 +1,4 @@
-function makeColorValue() {
+function makeRGBValue() {
     return Math.round(Math.random() * 255);
 }
   
@@ -9,16 +9,16 @@ function setButtonColor(button, red, green, blue) {
 
 function startGame(){
     var buttons = document.getElementsByClassName('colorButton');
-    var heading = document.getElementById('colorValue');
+    var heading = document.getElementById('rgbValue');
     var answerMessage = document.getElementById('answer');
 
     answerMessage.innerHTML = "";
     var answerButton = Math.round(Math.random() * (buttons.length - 1));
   
     for (var i = 0; i < buttons.length; i++) {
-        var red = makeColorValue();
-        var green = makeColorValue();
-        var blue = makeColorValue();
+        var red = makeRGBValue();
+        var green = makeRGBValue();
+        var blue = makeRGBValue();
   
         setButtonColor(buttons[i], red, green, blue);
   

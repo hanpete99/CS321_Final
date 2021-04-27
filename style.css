@@ -81,3 +81,8 @@ body {
   h4 {
       text-align: center;
   }
+
+  #myCanvas {
+      display: block;
+      margin: auto;
+  }

@@ -39,3 +39,8 @@ function startGame(){
 
 document.getElementById('resetButton').addEventListener('click', startGame);
 startGame();
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "12px Verdana";
+ctx.fillText("Project by Hannah Peterson, Elena Rios, and Abigail PinterParsons", 20, 30);

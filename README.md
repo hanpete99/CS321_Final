@@ -10,6 +10,6 @@ Resources:
 
 -Math in JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 
-
+-HTML Canvas Element: https://www.w3schools.com/html/html5_canvas.asp
 
 

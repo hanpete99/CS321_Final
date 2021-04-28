@@ -12,4 +12,4 @@ Resources:
 
 -HTML Canvas Element: https://www.w3schools.com/html/html5_canvas.asp
 
-
+-jQuery Font Flex: https://github.com/nathco/jQuery.fontFlex 

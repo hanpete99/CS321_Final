@@ -44,3 +44,13 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "12px Verdana";
 ctx.fillText("Project by Hannah Peterson, Elena Rios, and Abigail PinterParsons", 20, 30);
+
+$(function() {
+
+    // All elements
+    $('body').fontFlex(14, 20, 70);
+  
+    // H1 only
+    $('h1').fontFlex(26, 64, 100);	
+    
+  });

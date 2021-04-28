@@ -48,9 +48,9 @@ ctx.fillText("Project by Hannah Peterson, Elena Rios, and Abigail PinterParsons"
 $(function() {
 
     // All elements
-    $('body').fontFlex(14, 64, 100);
+    $('body').fontFlex(18, 64, 80);
   
     // H1 only
-    $('h1').fontFlex(26, 64, 100);	
+    $('h1').fontFlex(36, 64, 80);	
     
   });
